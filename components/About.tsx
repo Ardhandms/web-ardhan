@@ -21,7 +21,7 @@ const About = () => {
         </div>
       </div>
       <div className="flex justify-center relative my-2 z-10">
-        <Image src="/Profile.jpg" width={300} height={300} alt="Profile" />
+        <Image src="/profile2.jpg" width={400} height={400} alt="Profile" />
       </div>
     </section>
   );
