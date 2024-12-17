@@ -1,15 +1,16 @@
+"use client";
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import React from "react";
 
 const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       <div className="flex flex-col item-center text-center">
-        <h1 className="heading lg:max-w-[150vw] text-center">
-          Ready to take you into{" "}
-          <span className="text-blue-500">digitalization</span> to the next
-          level?
-        </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
+        <TextGenerateEffect
+          className="heading lg:max-w-[150vw] text-center"
+          words="Ready to take you into digitalization to the next level?"
+        />
+        <p className="text-white-200 md:mt-8 my-5 text-center">
           Reach out to me and discuss how we can achive our goals together
         </p>
 
@@ -32,7 +33,7 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="flex mt-5 md:flex-row flex-col justify-between md:gap-3 gap-6 ">
+      <div className="flex mt-5 md:flex-row flex-col justify-between md:gap-3 gap-6">
         <p className="md:text-base text-sm md:font-normal font-light mt-8">
           Copyright © 2024 Ardhan
         </p>
