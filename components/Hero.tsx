@@ -70,7 +70,7 @@ const Hero = () => {
               <h1 className="text-3xl md:text-4xl font-bold mb-6 text-gray-100 leading-snug">
                 Halo semua, <span className="text-blue-400">kenalin</span>
               </h1>
-              <p className="text-gray-200 text-base md:text-lg leading-relaxed">
+              <p className="text-gray-200 text-base text-left">
                 Aku Ardhan Dimas Nuryadin, seorang mahasiswa Jurusan Informatika
                 di Universitas Siliwangi, Kota Tasikmalaya. Aku tertarik pada
                 bidang{" "}
