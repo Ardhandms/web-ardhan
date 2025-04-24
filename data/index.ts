@@ -72,14 +72,22 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "MikroTik Certified Routing Engineer (MTCRE)",
+    des: "having successfully completed the appropriate trainingand certification requirements, is hereby recognised as a MikroTik Certified Routing Engineer",
+    img: "/mtcre.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "/mtcre.png",
+  },
+  {
+    id: 2,
     title: "MikroTik Certified Network Associate (MTCNA)",
-    des: "Successfully completed training and certification requirements as a MTCNA - MikroTik Certified Network Associate",
+    des: "having successfully completed training and certification requirements as a MTCNA - MikroTik Certified Network Associate",
     img: "/Mtcna.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/Mtcna.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "Certified Network Security Practitioner (CNSP)",
     des: "Passing the exam Certified Network Security Practitioner (CNSP) Certified Network Security Practitioner (CNSP) with Merit",
     img: "/Cnsp.png",
@@ -87,7 +95,7 @@ export const projects = [
     link: "/Cnsp.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "SOC Analyst Course - Cyber Academy Indonesia",
     des: " Has Completed the SOC Analyst Course and showing an understanding of its course module and requirement.",
     img: "/Soc.png",
@@ -95,7 +103,7 @@ export const projects = [
     link: "/Soc.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Red Hat System Administration I (RH124)",
     des: " HAS SUCCESSFULLY ATTENDED THE COURSE Red Hat System Administration I (RH124)",
     img: "/Rh124.png",
@@ -103,7 +111,7 @@ export const projects = [
     link: "/Rh2.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "Red Hat System Administration II (RH134)",
     des: " HAS SUCCESSFULLY ATTENDED THE COURSE Red Hat System Administration II (RH134)",
     img: "/Rh2.png",
@@ -111,7 +119,7 @@ export const projects = [
     link: "/Rh2.png",
   },
   {
-    id: 6,
+    id: 7,
     title: " Intensive Bootcamp React JS for Front End Development Batch 7",
     des: "  Has successfully completed and awarded a COMPLETION of 4-week online course for Intensive Bootcamp React JS for Front End Development Batch 7",
     img: "/Edspert.png",
@@ -187,28 +195,23 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Cybersecurity",
-    desc: "Profesional keamanan siber menggunakan berbagai teknologi dan proses untuk mendeteksi, mencegah, dan merespons serangan siber guna menjaga CIA informasi.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Security Operation Center",
-    desc: "Fasilitas terpusat yang menampung profesional dan alat keamanan siber yang bertanggung jawab memantau, mendeteksi, menganalisis, dan merespons insiden keamanan dan ancaman secara real-time.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
     title: "Network Engineer",
     desc: "Mengkonfigurasi perangkat jaringan seperti router, switch, firewall, dll. Juga bertanggung jawab merancang, mengimplementasikan, dan merawat jaringan komputer, termasuk LAN, WAN, dan internet.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
-    title: "Malware Analyst",
+    id: 2,
+    title: "Cybersecurity",
+    desc: "Profesional keamanan siber menggunakan berbagai teknologi dan proses untuk mendeteksi, mencegah, dan merespons serangan siber guna menjaga CIA informasi.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+    link: "",
+  },
+
+  {
+    id: 3,
+    title: "System Administration",
     desc: "Keamanan siber yang mengkhususkan diri dalam menganalisis perangkat lunak berbahaya (malware) untuk memahami perilakunya, fungsinya, dan dampaknya terhadap sistem dan jaringan komputer.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",

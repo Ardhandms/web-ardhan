@@ -10,26 +10,26 @@ const Footer = () => {
           className="heading lg:max-w-[150vw] text-center"
           words="Ready to take you into digitalization to the next level?"
         />
-        <p className="text-white-200 md:mt-8 my-5 text-center">
+        <p className="text-white-200 md:mt-2 my-5 text-center">
           Reach out to me and discuss how we can achive our goals together
         </p>
 
-        <div className="flex items-center justify-center md:gap-8 gap-8 my-5">
+        <div className="flex items-center justify-center md:gap-6 gap-8 my-5">
           <p className="md:text-base text-sm md:font-normal font-light">
             Contact Person:
           </p>
           <a href="https://www.instagram.com/ardhandms_?igsh=a3ZscDVseWMwYXQx">
-            <img src="/instagram.png" />
+            <img src="/instagram.png" width={35} height={35} />
           </a>
           <a href="https://wa.me/082320997062">
-            <img src="/whatsapp.png" />
+            <img src="/whatsapp.png" width={35} height={35} />
           </a>
           <a href="https://www.linkedin.com/in/ardhan-dimas-nuryadin-8a1b22298/">
-            <img src="/linkedin.png" />
+            <img src="/linkedin.png" width={35} height={35} />
           </a>
         </div>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Oh ya kalo ada bug bisa laporkan aja ke contact person diatas;{")"}
+          *Oiya kalo ada bug bisa laporkan aja ke contact person diatas;{")"}
         </p>
       </div>
 

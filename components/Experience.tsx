@@ -6,8 +6,8 @@ const Experience = () => {
   return (
     <div className="py-20 mt-24" id="experience">
       <h1 className="heading">
-        My Favorite about {""}
-        <span className="text-blue-500">Informatics Engineer</span>
+        My {""}
+        <span className="text-blue-500">Enthusiast?</span>
       </h1>
       <div className="w-full mt-12 grid lg:frid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (
