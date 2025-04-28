@@ -40,7 +40,7 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-4 mt-2">
             <a href="#projects">
               <MagicButton
-                title="Certificated"
+                title="Certificate"
                 icon={<FaLocationArrow />}
                 position="right"
               />

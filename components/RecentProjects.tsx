@@ -4,7 +4,7 @@ import { PinContainer } from "./ui/3d-pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-12 mb-20" id="projects">
+    <div className="py-12 mb-8" id="projects">
       <h1 className="heading">
         My Certificate {""}
         <span className="text-blue-600">i&apos;ve Achive</span>
