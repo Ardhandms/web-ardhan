@@ -12,7 +12,7 @@ const Approuch = () => {
       </h1>
       <div className="my-12 flex flex-col lg:flex-row items-center justify-center gap-8">
         <Card
-          title="Basic Network Engineer"
+          title="Intermediate Network Engineer"
           icon={<AceternityIcon order="Skill 1" />}
           description="Memiliki kemampuan dalam merancang, mengimplementasikan, dan memelihara jaringan komputer. Familiar dengan konsep dasar protokol jaringan, manajemen perangkat jaringan, dan troubleshooting."
         >
@@ -43,6 +43,21 @@ const Approuch = () => {
             colors={[
               [236, 72, 153],
               [232, 121, 249],
+            ]}
+            dotSize={3}
+          />
+        </Card>
+        <Card
+          title="Basic System Administrator"
+          icon={<AceternityIcon order="Skill 4" />}
+          description="Memiliki pemahaman dasar dalam mengelola sistem operasi server seperti Linux atau Windows Server, termasuk instalasi, konfigurasi, manajemen user, serta pemantauan performa dan keamanan sistem."
+        >
+          <CanvasRevealEffect
+            animationSpeed={3}
+            containerClassName="bg-black"
+            colors={[
+              [253, 224, 71],
+              [202, 138, 4],
             ]}
             dotSize={3}
           />
