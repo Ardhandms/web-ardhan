@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex flex-col item-center text-center">
         <TextGenerateEffect
           className="heading lg:max-w-[150vw] text-center"
-          words="Ready to take you into digitalization to the next level?"
+          words="Ready to take you into digitalization to the next level!"
         />
         <p className="text-white-200 md:mt-2 my-5 text-center">
           Reach out to me and discuss how we can achive our goals together
